@@ -8,3 +8,18 @@ if (num1 > num2) {
 } else {
   alert("The numbers are equal.");
 }
+
+
+
+
+let num = parseInt(prompt("Enter an integer: "));
+
+while (isNaN(num)) {
+  num = parseInt(prompt("Invalid input! Please enter an integer: "));
+}
+
+if (num % 2 === 0) {
+  alert(num + " is even.");
+} else {
+  alert(num + " is odd.");
+}
